@@ -33,7 +33,7 @@ class MyClass extends ActiveRecord
     }
 }
 ``` 
-Now, you can simple selection from database with extension function:
+Now, you can simple selection from database with your filter function:
 ```php
 $items = MyClass::find()->myFunc()->all();
 ```
@@ -42,7 +42,7 @@ Any function with any parameters with `query`-prefix can be called from ActiveQu
 ```php
     public static function queryStatusIs(ActiveQuery &$query, $status)
     {
-        $query->andWhere(['status' => $status']);
+        $query->andWhere(['status' => $status]);
     }
 ```
 ```php

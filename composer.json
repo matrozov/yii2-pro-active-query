@@ -1,7 +1,7 @@
 {
     "name": "matrozov/yii2-pro-active-query",
     "description": "Dynamically extensible ActiveQuery class",
-    "keywords": ["yii2", "ActiveQuery", "ActiveRecord"],
+    "keywords": ["yii2", "ActiveQuery", "ActiveRecord", "Behavior"],
     "homepage": "https://github.com/matrozov/yii2-pro-active-query",
     "type": "extension",
     "license": "MIT",
