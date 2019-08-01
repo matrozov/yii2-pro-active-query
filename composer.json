@@ -1,0 +1,30 @@
+{
+    "name": "matrozov/yii2-pro-active-query",
+    "description": "Dynamically extensible ActiveQuery class",
+    "keywords": ["yii2", "ActiveQuery", "ActiveRecord"],
+    "homepage": "https://github.com/matrozov/yii2-pro-active-query",
+    "type": "extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oleg Matrozov",
+            "email": "oleg.matrozov@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/matrozov/yii2-pro-active-query/issues",
+        "source": "https://github.com/matrozov/yii2-pro-active-query"
+    },
+    "require": {
+        "php": "^7.2",
+        "yiisoft/yii2": "~2.0.14"
+    },
+    "require-dev": {
+    },
+    
+    "autoload": {
+        "psr-4": {
+            "matrozov\\yii2paq\\": "src"
+        }
+    }
+}
